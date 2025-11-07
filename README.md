@@ -1,4 +1,8 @@
 
+# Waste Management System Website
+
+A website created for a certain research from a certain subject.
+
 ## How to Clone and Contribute
 
 Clone the project
