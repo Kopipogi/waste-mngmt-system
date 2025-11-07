@@ -23,6 +23,29 @@ Install dependencies if ever ([npm](https://www.npmjs.com/))
   npm install
 ```
 
+## Example of Cloning and Pushing:
+
+```bash
+  # 1. Clone your fork
+git clone https://github.com/your-username/project-name.git
+cd project-name
+
+# 2. Add the original repository as 'upstream'
+git remote add upstream https://github.com/original-owner/project-name.git
+
+# 3. Create a new branch for your feature or fix
+git checkout -b feature/my-awesome-change
+
+# 4. Make your changes, commit, and push
+git add .
+git commit -m "Add my awesome feature"
+git push origin feature/my-awesome-change
+
+# 5. Open a pull request
+#    -> From your fork’s 'feature/my-awesome-change' branch
+#    -> To upstream’s 'main' (or whatever branch they use)
+```
+
 ## Commit and Push (Pull Requests):
 
 - Watch [this](https://www.youtube.com/watch?v=jRLGobWwA3Y).
