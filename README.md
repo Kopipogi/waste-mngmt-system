@@ -18,19 +18,26 @@ A website created for a certain research from a certain subject.
 ```
 
 
-### Install dependencies if ever (ex., [npm](https://www.npmjs.com/))
+### Dependencies
+
+- [npm v.20](https://npmjs.com) 
+
+- [Bootstrap](https://getbootstrap.com/)
+
+- [Express](https://expressjs.com/)
+
+- [Vite](https://vite.dev/)
+
+- [React](https://react.dev/)
 
 
+### Running Vite + React
 
 ```bash
-  npm install
+npm run dev
 ```
 
-
-
-
-
-## Example of Cloning and Pushing:
+## Cloning and Pushing:
 
 ### 1. Clone your fork
 
@@ -41,26 +48,17 @@ git clone https://github.com/your-username/project-name.git
 cd project-name
 ```
 
-
-
-
 ### 2. Add the original repository as 'upstream'
 
 ```bash
 git remote add upstream https://github.com/original-owner/project-name.git
 ```
 
-
-
-
 ### 3. Create a new branch for your feature or fix
 
 ```bash
 git checkout -b feature/my-awesome-change #<- Branch Name
 ```
-
-
-
 
 ### 4. Make your changes, commit, and push
 
@@ -89,17 +87,6 @@ When creating personal tokens, go to top-right and click your profile picture an
 - Fill up the important and make sure you click the Repository Access > All Repositories
 
 - Then generate and done.
-
-## Frameworks Involved
-
-- [Bootstrap](https://getbootstrap.com/)
-
-- [Express](https://expressjs.com/)
-
-- [Vite](https://vite.dev/)
-
-- [React](https://react.dev/)
-
 
 # React + Vite
 
